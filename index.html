@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>InstaGabber - Reel Downloader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 InstaGabber</h1>
+    <p>Download Instagram Reels in MP4 or MP3</p>
+
+    <input type="text" id="reelUrl" placeholder="Paste Instagram Reel URL here" />
+    
+    <div class="format-options">
+      <label><input type="radio" name="format" value="mp4" checked> MP4 (Video)</label>
+      <label><input type="radio" name="format" value="mp3"> MP3 (Audio)</label>
+    </div>
+
+    <button onclick="download()">🚀 Download</button>
+    
+    <div id="message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
